@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>Veteran</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet"/>
   </head>
@@ -14,15 +14,19 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-8 col-md-7 py-4">
-                <h4 class="text-white">About</h4>
-                <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+                <h4 class="text-white">Login</h4>
+                <div class="input-login">
+                <input type="text" placeholder="Id"/>
+                <input type="password"placeholder="password"/>
+                <button type="button" class="login-btn">login</button>
+              </div>
               </div>
               <div class="col-sm-4 offset-md-1 py-4">
-                <h4 class="text-white">Contact</h4>
+                <h4 class="text-white">Pages</h4>
                 <ul class="list-unstyled">
-                  <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                  <li><a href="#" class="text-white">Like on Facebook</a></li>
-                  <li><a href="#" class="text-white">Email me</a></li>
+                  <li><a href="index.html" class="text-white">Movie</a></li>
+                  <li><a href="member.html" class="text-white">Member</a></li>
+                  <li><a href="join.html" class="text-white">Join us!</a></li>
                 </ul>
               </div>
             </div>
@@ -30,7 +34,7 @@
         </div>
         <div class="navbar navbar-dark bg-dark shadow-sm">
           <div class="container">
-            <a href="#" class="navbar-brand d-flex align-items-center">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-reels" viewBox="0 0 16 16">
                 <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/>
                 <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7zm6 8.73V7.27l-3.5 1.555v4.35l3.5 1.556zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z"/>
@@ -56,7 +60,7 @@
                 <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
                 <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
               </svg></button>
-                <li><span>title</span><a href="#">veteran</a></li>
+                <li><span>title</span><a href="#">Veteran</a></li>
                 <li><span>genre</span><a href="#">Comedy</a></li>
                 <li><span>rating</span><a href="#">NC-17</a></li>
                 <li><span>director</span><a href="#">Ryoo Seung-wan
@@ -122,23 +126,48 @@
                   </ul>
               </div>
               </ul>
-            </div>
+
+              <div class="post_comment">
+                                    <h1>Comment</h1>
+                                      <form class="text_enter">
+                                        <input type="text" class="comments"/>
+                                        <input type="submit" class="comments_submit"value="작성"/>
+                                      </form>
+                                    <div class="com">
+                                      <div class="comment_list">
+                                        <span class="profile_img"><img src="https://d2u3dcdbebyaiu.cloudfront.net/uploads/atch_img/309/59932b0eb046f9fa3e063b8875032edd_crop.jpeg"/></span>
+                                        <h2 class="nickname">test1</h2>
+                                        <div class="comment_date">2022.03.25</div>
+                                        <span class="comment">It's funny</span>
+                                      </div>
+                                      <div class="comment_list">
+                                        <span class="profile_img"><img src="https://d2u3dcdbebyaiu.cloudfront.net/uploads/atch_img/309/59932b0eb046f9fa3e063b8875032edd_crop.jpeg"/></span>
+                                        <h2 class="nickname">test2</h2>
+                                        <div class="comment_date">2022.03.25</div>
+                                        <span class="comment">I've watched twice</span>
+                                      </div>
+                                  </div>
+                                    </div>
+             
             
 
             </div>
       
       </main>
-      
+      <nav>
+        <a href="#top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+          <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+        </svg></a>
+      </nav>
       <footer class="text-muted py-5">
         <div class="container">
           <p class="float-end mb-1">
-            <a href="#">Back to top</a>
+            
           </p>
-          <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-          <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.2/getting-started/introduction/">getting started guide</a>.</p>
+          <p class="mb-1">All Time Favorite Movie</p>
+          <p class="mb-0">This website helps you to select all time favorite korean movie ASAP by servicing the condensed information about movies.</p>
         </div>
       </footer>
-      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
